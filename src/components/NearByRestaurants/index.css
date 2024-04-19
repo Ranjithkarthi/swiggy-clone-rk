@@ -1,0 +1,188 @@
+
+.nearby-container {
+    padding: 10px;
+}
+
+.nearby-container-head {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.nearby-container-head-image {
+    height: 30px;
+    width: 30px;
+}
+
+.nearby-container-head-text {
+    margin: 0px;
+    padding-left: 8px;
+    font-size: 1.43rem;
+    font-weight: 800;
+    color: #3d4152;
+    letter-spacing: -.3px;
+    font-family: ProximaNovaExtraBold, arial, Helvetica Neue, sans-serif;
+
+}
+
+.nearby-container-para {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    letter-spacing: 0;
+    font-size: 1.15rem;
+    color: #686b78;
+    margin-top: 2px;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+.restaurant-image {
+    /* position: relative; */
+    background: #eef0f5;
+    float: left;
+    border-radius: 8px;
+}
+
+.restaurant-image img {
+    /* position: relative; */
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.restaurant-text{
+    width: 50%;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+
+.restaurtant-name {
+
+    line-height: 18px;
+    color: #3e4152;
+    font-weight: 600;
+    margin-top: 1px;
+    font-size: 1.15rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.offer {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #fff, #fac6a5);
+    justify-content: space-between;
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #eb6009;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 16px;
+    width: 74%;
+    margin-top: 8px;
+}
+
+.offer img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.type {
+    font-weight: 300;
+    font-family: "Popins";
+    margin-top: 4px;
+    font-size: 1rem;
+    line-height: 16px;
+    color: #93959f;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.rating-amount {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: .93rem;
+    color: #696b79;
+    font-weight: 500;
+    margin-top: 6px;
+    line-height: 110x;
+}
+
+.rating {
+    width: 20px;
+    height: 20px;
+    margin-top: -4px;
+}
+
+.splitter {
+    font-size: 6px;
+    line-height: 1.5rem;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: -6px;
+}
+
+.indian-rupee-sign {
+    /* line-height: 1.3rem; */
+    /* padding: 0;
+    margin-bottom: 4px; */
+    margin: 0px;
+}
+
+.orange-deal {
+    background-color: #fc7d2d;
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    width: 100px;
+}
+
+.amount-deal {
+    border: .85px solid #e3e3e3;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    color: #ed5e0e;
+    background: #fff;
+    font-size: 14px;
+    line-height: .87;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.font-big,
+.orange-deal {
+    font-size: 14px;
+    line-height: .92;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.deal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90px;
+    position: absolute;
+    text-align: center;
+    bottom: -90px;
+}

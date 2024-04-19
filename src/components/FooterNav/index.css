@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ul-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li a{
+    display: block;
+}
+
+.nav-icon{
+    padding: 4px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+
+.nav-icon:hover{
+    transform: rotate(-3deg);
+    color: darkorange;
+}

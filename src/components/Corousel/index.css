@@ -1,0 +1,10 @@
+.corousel-container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.eachCorouselItem {
+    width: 90%;
+    height: 250px;
+}

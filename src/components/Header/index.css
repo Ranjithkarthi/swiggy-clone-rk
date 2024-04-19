@@ -1,0 +1,24 @@
+.header-container{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.location-icon{
+    fill: darkorange;
+    font-size: 1.4rem;
+}
+
+.location-content{
+    display: flex;
+    align-items: center;
+}
+
+.swiggy-header-icon{
+    fill: darkorange;
+    font-size: 2rem;
+}
